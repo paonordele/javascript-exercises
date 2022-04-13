@@ -1,14 +1,13 @@
-const reverseString = function(stringout) {
-  let reverse = "";
-  for (let i=0; i<stringout.lenght; i++){
-    reverse += stringout[stringout.lenght-i];
-  }
-  return reverse;
-  console.log(rever)
+const reverseString = function(cadena) {
+   var cadenaInvertida = "";
+    for (var x = cadena.length -1; x >= 0; x--) {
+        cadenaInvertida += cadena[x];
+    }
+    return cadenaInvertida;
+}
+  
 
-};
 
 //Do not edit below this line
-//module.exports = reverseString;
+module.exports = reverseString;
 
-reverseString("hola");
